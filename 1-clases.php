@@ -39,3 +39,7 @@ $persona->correr();
 $persona2 = new Persona('Marcos', 20);
 echo $persona2->nombre;
 $persona2->correr();
+
+$persona3 = new Persona('Silvia', 30);
+echo $persona3->nombre;
+$persona3->correr();
