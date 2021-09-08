@@ -52,3 +52,7 @@ $persona2->caminar();
 $persona->saludar('Brenda');
 
 $persona->estudiar('Historia');
+
+$persona3 = new Persona('Maria', 16);
+echo " <br>". $persona3->nombre;
+$persona3->estudiar('Matematica');
