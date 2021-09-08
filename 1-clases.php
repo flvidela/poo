@@ -17,7 +17,12 @@ class Persona
     public function correr()
     {
         echo '<br> Estoy corriendo';
-    }        
+    }    
+    
+    public function cantar()
+    {
+        echo '<br> Estoy cantando';
+    }     
     
     public function __construct($nombre, $edad)
     {
@@ -42,4 +47,4 @@ $persona2->correr();
 
 $persona3 = new Persona('Silvia', 30);
 echo $persona3->nombre;
-$persona3->correr();
+$persona3->cantar();

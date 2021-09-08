@@ -23,7 +23,12 @@ class Persona
     public function saludar($otra_persona)
     {
         echo " <br>". $this->nombre . ' saluda a ' . $otra_persona;
-    }       
+    }  
+    
+    public function estudiar($materia)
+    {
+        echo " <br>". $this->nombre . ' estudia ' . $materia;
+    }     
     
     public function __construct($nombre, $edad)
     {
@@ -45,3 +50,5 @@ echo " <br>". $persona2->nombre;
 $persona2->caminar();
 
 $persona->saludar('Brenda');
+
+$persona->estudiar('Historia');
