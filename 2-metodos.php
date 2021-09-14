@@ -29,6 +29,11 @@ class Persona
     {
         echo " <br>". $this->nombre . ' estudia ' . $materia;
     }     
+
+    public function cantar()
+    {
+        echo " Estoy caminando ";
+    }       
     
     public function __construct($nombre, $edad)
     {
@@ -56,3 +61,4 @@ $persona->estudiar('Historia');
 $persona3 = new Persona('Maria', 16);
 echo " <br>". $persona3->nombre;
 $persona3->estudiar('Matematica');
+$persona->cantar();
